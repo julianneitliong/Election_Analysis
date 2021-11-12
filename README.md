@@ -23,6 +23,7 @@ The purpose of this analysis is to quickly and efficiently look through voter re
 
 ## Election Audit Summary
 The code used for this election can also be used for any election, with some modifications. This is because of the IF statements that were built into the script that allows candidate and county names to be added to the candidate and county lists.
+
 ![election_script](https://github.com/julianneitliong/election_analysis/blob/e2a329c7ee00759544bd47e4fc511223e86dfd1e/election_audit_summary.jpg)
 
 This means as long as the election results are held in a csv file and is formatted similarly to our source (3 rows: Ballot ID, County, Candidate) the code will add the new candidate or new county to the each of their respective lists. In addition, depending on the business question the election audit committee would like answered, other variables can be created for analysis. For example, calculating the average number of votes the candidate receives in each county in order to understand how effective their election campaigns perform. In summary, this election analysis script can be re-used for any election because it is not specific to this csv source file. 
